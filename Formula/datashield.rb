@@ -1,17 +1,17 @@
 class Datashield < Formula
   desc "Password manager that lives in your terminal"
   homepage "https://datashield.aeratic.com"
-  version "0.1.0"
+  version "0.1.1"
   license "GPL-3.0-or-later"
 
   on_linux do
     on_intel do
       url "https://github.com/aeratic/DataShield/releases/download/v#{version}/datashield-tui-linux-x86_64.tar.gz"
-      sha256 "191c0d8c98cebfd7eb13df713c25050f644b0bfdc302ebd717976d450ff140aa"
+      sha256 "e231b617b19a5d95aa438ecac43d1821203276b44b7d7a900583913718a225c9"
     end
     on_arm do
       url "https://github.com/aeratic/DataShield/releases/download/v#{version}/datashield-tui-linux-aarch64.tar.gz"
-      sha256 "10f67f81348efdb40e880f0dc4dd3a2d368919df49e8a0710f8478bee6959225"
+      sha256 "316c3e7e27f1aa475bfa6b3881d830995d6b7b1b3251e3756d6ff966f637f2de"
     end
   end
 
