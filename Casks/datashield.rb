@@ -1,6 +1,6 @@
 cask "datashield" do
-  version "0.1.2"
-  sha256 "3472ffb81c135ffcf442032b0200cea64ca9367bc658f4d521140270a97eb4ae"
+  version "0.1.3"
+  sha256 "7e4e92940092e7c5ba60731d81b714dc0fdfbae56e227de34ea9f441b3c7f5b8"
 
   url "https://github.com/aeratic/DataShield/releases/download/v#{version}/DataShield-TUI-macos-aarch64.dmg"
   name "DataShield"
